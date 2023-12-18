@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: rgb(33, 48, 71);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #calculator {
+    max-width: 360px;
+    background-color: #0d1b2a;
+    border-radius: 10px;
+    padding: 20px;
+    border-bottom: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  #display {
+    width: 100%;
+    
+  height: 56px;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 50%;
+  color: #e0e1dd;
+  background-color: rgba(13, 27, 42, 0.3);
+  border: none;
+  box-sizing: border-box;
+}
+
+.operator {
+  color: #219ebc;
+}
+
+#ac {
+  color: #eb3939;
+}
+
+.equal {
+  width: calc(25% - 10px);
+}
+
+button {
+  width: calc(25% - 10px);
+  height: 50px;
+  font-size: 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 100%;
+  float: left;
+  background-color: rgb(13, 27, 42);
+  color: #e0e1dd;
+  -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+
+}
+
+button:active {
+  transform: scale(1.15);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.19),
+    0 1.5px 1.5px rgba(0, 0, 0, 0.23);
+}
+
+footer {
+  position: absolute;
+  bottom: 60px;
+  
+  font-size: 18px;
+  color: #ffff;
+}
+
+footer a {
+  color: transparent;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+#telLogo {
+    color: blue;
+    font-size: 35px;
+    margin-right: 7px;
+    
+    
+
+  } 
+
+  #whatsappLogo{
+    color: #189D0E;
+    font-size: 35px;
+    margin-right: 7px;
+
+    
+    
+  }
+  
+  #instagramLogo {
+    
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin-right: 7px;
+
+    
+    
+    
+  }
+
+  span {
+    font-size: 22px;
+    
+}
